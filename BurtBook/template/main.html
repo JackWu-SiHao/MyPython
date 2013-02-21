@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>{{page_title}}</title>
+        <link rel="stylesheet" href="{{static_url("style.css")}}" />
+    </head>
+    <body>
+    <div id="container">
+        <header>
+            {% block header %}<h1>Jack's Books-Main.html</h1> {% end %}
+        </header>
+        <div id="main">
+            <div id="content">
+                {% block body %}<h2>Body-Main.html</h2>{% end %}
+            </div>
+        </div>
+        <footer>
+            {% block footer %}
+            <p>
+                For more information about our selection, hours or events, please email us at
+                <a href="mailto:contact@burtsbooks.com">contact@burtsbooks.com</a>.
+            </p>
+            {% end %}
+        </footer>
+    </div>
+    </body>
+</html>
