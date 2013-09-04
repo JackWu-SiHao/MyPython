@@ -5,13 +5,14 @@ Python programming practice
 
 Mac OS setup mysql problems
 ====
-1. mysql_config not found
+
+mysql_config not found
 
 ```
 export PATH=$PATH:/usr/local/mysql/bin
 ```
 
-2. install python-mysqldb
+install python-mysqldb
 
 - Downloaded mysql_python and unzipped it
 - Installed mysql_python
@@ -19,14 +20,14 @@ export PATH=$PATH:/usr/local/mysql/bin
 ```
 python setup.py install
 ```
-    
-3. MySQL on OSX: Library not loaded: libmysqlclient.18.dylib
+
+MySQL on OSX: Library not loaded: libmysqlclient.18.dylib
 
 ```
 sudo ln -s /usr/local/mysql/lib/libmysqlclient.18.dylib /usr/lib/libmysqlclient.18.dylib
 ```
 
-4. Mysql root password reset
+Mysql root password reset
 
 ```
 $ mysql -u root
