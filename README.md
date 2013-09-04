@@ -11,9 +11,11 @@ mysql_config not found
 
 install python-mysqldb
 
-    Downloaded mysql_python and unzipped it
-    Installed mysql_python using python setup.py install
-    Tested it in an interactive session python, import _mysql
+- Downloaded mysql_python and unzipped it
+- Installed mysql_python 
+```
+python setup.py install
+```
     
 MySQL on OSX: Library not loaded: libmysqlclient.18.dylib
 
